@@ -20,6 +20,7 @@ The framework follows industry best practices including Page Object Model (POM),
 
 📂 Project Structure
 StayIn-Automation-testing/
+StayIn-Automation-testing/
 │
 ├── src
 │   ├── main
