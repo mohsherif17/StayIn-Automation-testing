@@ -27,8 +27,8 @@ StayIn-Automation-testing/
 │   │   │   ├── ComponanatManger/        # Page components & business flows
 │   │   │   ├── Drivers/                 # Driver factories & GUIDriver manager
 │   │   │   ├── Listeners/               # TestNG listeners (screenshots, logs, reporting)
-│   │   │   ├── Media/                   # Screenshots & video recording manager
-│   │   │   ├── Utils/                   # Actions, Data Readers, Logging, Reports utilities
+│   │   │   ├── Media/                   # Screenshots & video recordings
+│   │   │   ├── Utils/                   # Actions, DataReaders, Logging, Reports utilities
 │   │   │   └── Validations/             # Soft & hard assertions
 │   │   └── resources/
 │   │       └── configuration.properties # Global configuration file
@@ -40,6 +40,7 @@ StayIn-Automation-testing/
 │
 ├── pom.xml                              # Maven dependencies & plugins
 └── README.md                            # Project documentation
+
 
 
 
