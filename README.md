@@ -20,26 +20,26 @@ The framework follows industry best practices including Page Object Model (POM),
 
 📂 Project Structure
 StayIn-Automation-testing/
-│
-├── src
-│   ├── main
-│   │   ├── java
-│   │   │   ├── ComponanatManger/        # Page components & business flows
-│   │   │   ├── Drivers/                 # Driver factories & GUIDriver manager
-│   │   │   ├── Listeners/               # TestNG listeners (screenshots, logs, reporting)
-│   │   │   ├── Media/                   # Screenshots & video recordings
-│   │   │   ├── Utils/                   # Actions, DataReaders, Logging, Reports utilities
-│   │   │   └── Validations/             # Soft & hard assertions
-│   │   └── resources/
-│   │       └── configuration.properties # Global configuration file
-│   │
-│   ├── test
-│   │   ├── java                         # Test classes
-│   │   └── resources/
-│   │       └── test-data/               # JSON, Excel test data
-│
-├── pom.xml                              # Maven dependencies & plugins
-└── README.md                            # Project documentation
+|
++-- src/
+|   +-- main/
+|   |   +-- java/
+|   |   |   +-- ComponanatManger/
+|   |   |   +-- Drivers/
+|   |   |   +-- Listeners/
+|   |   |   +-- Media/
+|   |   |   +-- Utils/
+|   |   |   +-- Validations/
+|   |   +-- resources/
+|   |       +-- configuration.properties
+|   |
+|   +-- test/
+|       +-- java/
+|       +-- resources/test-data/
+|
++-- pom.xml
++-- README.md
+
 
 
 
