@@ -1,0 +1,88 @@
+[INFO] Execution started
+[ERROR] Failed to clear the file\test-output\ScreenShots
+[ERROR] Failed to clear the fileCannot delete file: D:\00ITI_Testing\00\final project\StayIN-GradProject\test-output\Logs\logs.log
+[INFO] Test output directories cleaned
+[INFO] Test output directories created
+[INFO] Properties loaded
+[INFO] Allure environment info set successfully
+[ERROR] Error while extracting allure zip: C:\Users\BROTHERS\.m2\repository\allure\allure-2.35.1
+[INFO] Allure binaries downloaded and extracted successfully
+[INFO] Allure environment info set
+[INFO] JSON file loaded successfully: E2E-Data
+[INFO] Initializing {} driver edge
+[INFO] Navigated to URL:  https://airbnb-host-sigma.vercel.app
+[INFO] before test register test
+[INFO] LoginTc about to execute
+[INFO] Clicked on element successfully:  By.xpath: //div/button[@class='flex text-sm bg-gray-100 rounded-full p-3 hover:bg-gray-200 shadow-lg transition-all duration-200']
+[INFO] Clicked on element successfully:  By.xpath: //li/a[@href='/auth/login']
+[INFO] Typed into element successfully:  muhamedsherif98@gmail.com
+[INFO] Typed into element successfully:  Muh@1998
+[INFO] Clicked on element successfully:  By.tagName: button
+[WARN] No soft assertions were made. assertAll() will not be called.
+[INFO] 📸 Screenshot attached to Allure: test-output/screenshots/LoginTc.png
+[INFO] LoginTc Finished
+[INFO] LoginTc passed
+[INFO] searchTC about to execute
+[INFO] Typed into element successfully:  Lakefront Cabin in Finland
+[INFO] Pressed ENTER on element: By.tagName: input
+[INFO] Clicked on element successfully:  By.xpath: //div/h3[.='Lakefront Cabin in Finland']/preceding::button[@aria-Label='Next image']
+[ERROR] Failed to click element: 
+[INFO] Clicked on element successfully:  By.xpath: //div/h3[.='Lakefront Cabin in Finland']/preceding::button[@aria-Label='Next image']
+[INFO] Clicked on element successfully:  By.xpath: //div/h3[.='Lakefront Cabin in Finland']/preceding::button[@aria-Label='Next image']
+[INFO] Clicked on element successfully:  By.xpath: //div/h3[.='Lakefront Cabin in Finland']/preceding::button[@aria-Label='Previous image']
+[INFO] Clicked on element successfully:  By.xpath: //div/h3[.='Lakefront Cabin in Finland']/preceding::button[@aria-Label='Add to wishlist']
+[WARN] No soft assertions were made. assertAll() will not be called.
+[INFO] 📸 Screenshot attached to Allure: test-output/screenshots/searchTC.png
+[INFO] searchTC Finished
+[INFO] searchTC passed
+[INFO] wishListTc about to execute
+[INFO] Clicked on element successfully:  By.xpath: //div/button[@class='flex items-center gap-2 text-sm bg-gray-100 rounded-full p-1 pr-3 hover:bg-gray-200 shadow-lg transition-all duration-200']
+[INFO] Clicked on element successfully:  By.xpath: //li/a[@href='/wishlist']
+[INFO] Retrieved text from element successfully:  Lakefront Cabin in Finland
+[INFO] Retrieved text from element successfully:  Your Wishlist
+[INFO] 📸 Screenshot attached to Allure: test-output/screenshots/wishListTc.png
+[INFO] wishListTc Finished
+[INFO] wishListTc passed
+[INFO] selectProductFromFilter about to execute
+[INFO] Navigated to URL:  https://airbnb-host-sigma.vercel.app
+[INFO] Clicked on element successfully:  By.xpath: //button/span[.='Mountain']
+[ERROR] Failed to click element: 
+[WARN] Stale element detected, retrying click: By.xpath: //div/h3[.='Alpine Lodge in Austria']/preceding::button[@aria-Label='Next image']
+[INFO] Clicked on element successfully:  By.xpath: //div/h3[.='Alpine Lodge in Austria']/preceding::button[@aria-Label='Next image']
+[INFO] Clicked on element successfully:  By.xpath: //div/h3[.='Alpine Lodge in Austria']/preceding::button[@aria-Label='Next image']
+[INFO] Clicked on element successfully:  By.xpath: //div/h3[.='Alpine Lodge in Austria']/preceding::button[@aria-Label='Next image']
+[INFO] Clicked on element successfully:  By.xpath: //div/h3[.='Alpine Lodge in Austria']/preceding::button[@aria-Label='Previous image']
+[INFO] Clicked on element successfully:  By.xpath: //div/h3[.='Alpine Lodge in Austria']
+[INFO] 📸 Screenshot attached to Allure: test-output/screenshots/selectProductFromFilter.png
+[INFO] selectProductFromFilter Finished
+[INFO] selectProductFromFilter passed
+[INFO] viewPropertyTC about to execute
+[ERROR] Failed to click element: 
+[ERROR] Failed to click element: 
+[WARN] Stale element detected, retrying click: By.xpath: //div[@class='grid grid-cols-7 gap-1']/preceding::button[.=' 15 ']
+[INFO] Clicked on element successfully:  By.xpath: //div[@class='grid grid-cols-7 gap-1']/preceding::button[.=' 15 ']
+[INFO] Clicked on element successfully:  By.xpath: //label[.='CHECKOUT']/following::div[@class='text-sm'][1]
+[INFO] Clicked on element successfully:  By.xpath: //div[@class='text-center p-2 rounded-full text-sm cursor-pointer'][.=' 17 ']
+[INFO] Clicked on element successfully:  By.xpath: //button[.=' Done ']
+[INFO] Clicked on element successfully:  By.xpath: //label[.='GUESTS']/following::div[@class='text-sm cursor-pointer']
+[INFO] Clicked on element successfully:  By.xpath: //div[.='Adults']/following::button[.=' + '][1]
+[INFO] Clicked on element successfully:  By.xpath: //div[.='Adults']/following::button[.=' + '][1]
+[INFO] Clicked on element successfully:  By.xpath: //div[.='Adults']/following::button[.=' - '][1]
+[INFO] Clicked on element successfully:  By.xpath: //div[.='Adults']/following::button[.=' - '][1]
+[INFO] Clicked on element successfully:  By.xpath: //div[.='Children']/following::button[.=' + '][1]
+[INFO] Clicked on element successfully:  By.xpath: //div[.='Children']/following::button[.=' + '][1]
+[INFO] Clicked on element successfully:  By.xpath: //div[.='Infants']/following::button[.=' + '][1]
+[INFO] Clicked on element successfully:  By.xpath: //div[.='Infants']/following::button[.=' + '][1]
+[INFO] Clicked on element successfully:  By.xpath: //div[.='Infants']/following::button[.=' + '][1]
+[INFO] Clicked on element successfully:  By.xpath: //div/label[@class='relative inline-flex items-center cursor-pointer']
+[INFO] Clicked on element successfully:  By.xpath: //button[.=' Close ']
+[INFO] Clicked on element successfully:  By.xpath: //app-amenities//button
+[INFO] Retrieved text from element successfully:  Pool
+[INFO] Retrieved text from element successfully:  Wi-Fi
+[INFO] Clicked on element successfully:  By.xpath: //app-amenities//button[.=' Done ']
+[INFO] Retrieved text from element successfully:  295.5$
+[INFO] Retrieved text from element successfully:  692$
+[INFO] Clicked on element successfully:  By.xpath: //button[.=' Reserve ']
+[INFO] 📸 Screenshot attached to Allure: test-output/screenshots/viewPropertyTC.png
+[INFO] viewPropertyTC Finished
+[INFO] viewPropertyTC passed

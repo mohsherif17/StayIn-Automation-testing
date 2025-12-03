@@ -1,0 +1,33 @@
+{
+  "user1": {
+    "email": "muhamedsherif98@gmail.com",
+    "password": "Muh@1998"
+  },
+  "searchProperty": "Lakefront Cabin in Finland",
+  "filterItem": "Mountain",
+  "filterProperty": "Alpine Lodge in Austria",
+  "reservationProp": {
+    "checkIn": "15",
+    "checkOut": "17",
+    "Total": "692$",
+    "nPrice": "295.5$",
+    "option1": "Wi-Fi",
+    "option2": "Dryer",
+    "option3": "Pool",
+    "adults": "2",
+    "children": "2",
+    "infants": "3"
+  },
+  "card": {
+    "email": "muhamedsherif98@gmail.com",
+    "number": "4242 4242 4242 4242",
+    "CVV": "331",
+    "ExDate": "07/30",
+    "holder": "Muhamed sherif"
+  },
+  "payment": {
+    "date": "Dec 15, 2025 - Dec 17, 2025",
+    "message": "Payment Successful!",
+    "total": "$691.47"
+  }
+}

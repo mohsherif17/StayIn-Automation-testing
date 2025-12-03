@@ -1,0 +1,141 @@
+[INFO] Execution started
+[ERROR] Failed to clear the file\test-output\ScreenShots
+[ERROR] Failed to clear the fileCannot delete file: D:\00ITI_Testing\00\final project\StayIN-GradProject\test-output\Logs\logs.log
+[INFO] Test output directories cleaned
+[INFO] Test output directories created
+[INFO] Properties loaded
+[INFO] Allure environment info set successfully
+[ERROR] Error while extracting allure zip: C:\Users\BROTHERS\.m2\repository\allure\allure-2.35.1
+[INFO] Allure binaries downloaded and extracted successfully
+[INFO] Allure environment info set
+[INFO] JSON file loaded successfully: E2E-Data
+[INFO] Initializing {} driver edge
+[INFO] Navigated to URL:  https://airbnb-host-sigma.vercel.app
+[INFO] before test register test
+[INFO] LoginTc about to execute
+[INFO] Page fully loaded.
+[INFO] Clicked on element successfully:  By.xpath: //div/button[@class='flex text-sm bg-gray-100 rounded-full p-3 hover:bg-gray-200 shadow-lg transition-all duration-200']
+[INFO] Page fully loaded.
+[INFO] Page fully loaded.
+[INFO] Clicked on element successfully:  By.xpath: //li/a[@href='/auth/login']
+[INFO] Page fully loaded.
+[INFO] Page fully loaded.
+[INFO] Typed into element successfully:  muhamedsherif98@gmail.com
+[INFO] Page fully loaded.
+[INFO] Typed into element successfully:  Muh@1998
+[INFO] Page fully loaded.
+[INFO] Clicked on element successfully:  By.tagName: button
+[INFO] Page fully loaded.
+[WARN] No soft assertions were made. assertAll() will not be called.
+[INFO] 📸 Screenshot attached to Allure: test-output/screenshots/LoginTc.png
+[INFO] LoginTc Finished
+[INFO] LoginTc passed
+[INFO] searchTC about to execute
+[INFO] Page fully loaded.
+[INFO] Typed into element successfully:  Lakefront Cabin in Finland
+[INFO] Page fully loaded.
+[INFO] Pressed ENTER on element: By.tagName: input
+[INFO] Page fully loaded.
+[INFO] Page fully loaded.
+[ERROR] Failed to click element: stale element reference: stale element not found in the current frame
+  (Session info: MicrosoftEdge=142.0.3595.53)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Build info: version: '4.37.0', revision: '3c1da1e342'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [5c43b1e2a7cb08dfffd8e6589804443c, clickElement {id=f.710581A352270E68F97CEB7B23B67330.d.7A12BD0ED109E4A86C4DB2C31B785F4C.e.42}]
+Capabilities {acceptInsecureCerts: true, browserName: MicrosoftEdge, browserVersion: 142.0.3595.53, fedcm:accounts: true, goog:processID: 13868, ms:edgeOptions: {debuggerAddress: localhost:8273}, msedge: {msedgedriverVersion: 142.0.3595.53 (e9d637e9672e..., userDataDir: C:\Users\BROTHERS\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:8273/devtool..., se:cdpVersion: 142.0.3595.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (5c43b1e2a7cb08dfffd8e6589804443c)] -> xpath: //div/h3[.='Lakefront Cabin in Finland']/preceding::button[@aria-Label='Next image']]
+Session ID: 5c43b1e2a7cb08dfffd8e6589804443c
+[INFO] Clicked on element successfully:  By.xpath: //div/h3[.='Lakefront Cabin in Finland']/preceding::button[@aria-Label='Next image']
+[INFO] Page fully loaded.
+[INFO] Page fully loaded.
+[INFO] Clicked on element successfully:  By.xpath: //div/h3[.='Lakefront Cabin in Finland']/preceding::button[@aria-Label='Next image']
+[INFO] Page fully loaded.
+[INFO] Page fully loaded.
+[INFO] Clicked on element successfully:  By.xpath: //div/h3[.='Lakefront Cabin in Finland']/preceding::button[@aria-Label='Next image']
+[INFO] Page fully loaded.
+[INFO] Page fully loaded.
+[INFO] Clicked on element successfully:  By.xpath: //div/h3[.='Lakefront Cabin in Finland']/preceding::button[@aria-Label='Previous image']
+[INFO] Page fully loaded.
+[INFO] Page fully loaded.
+[INFO] Clicked on element successfully:  By.xpath: //div/h3[.='Lakefront Cabin in Finland']/preceding::button[@aria-Label='Add to wishlist']
+[INFO] Page fully loaded.
+[WARN] No soft assertions were made. assertAll() will not be called.
+[INFO] 📸 Screenshot attached to Allure: test-output/screenshots/searchTC.png
+[INFO] searchTC Finished
+[INFO] searchTC passed
+[INFO] wishListTc about to execute
+[INFO] Page fully loaded.
+[INFO] Clicked on element successfully:  By.xpath: //div/button[@class='flex items-center gap-2 text-sm bg-gray-100 rounded-full p-1 pr-3 hover:bg-gray-200 shadow-lg transition-all duration-200']
+[INFO] Page fully loaded.
+[INFO] Page fully loaded.
+[INFO] Clicked on element successfully:  By.xpath: //li/a[@href='/wishlist']
+[INFO] Page fully loaded.
+[INFO] Page fully loaded.
+[ERROR] Failed to get text: stale element reference: stale element not found in the current frame
+  (Session info: MicrosoftEdge=142.0.3595.53)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Build info: version: '4.37.0', revision: '3c1da1e342'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [5c43b1e2a7cb08dfffd8e6589804443c, executeScript {script=arguments[0].scrollIntoView({behavior:"auto",block:"center",inline:"center"});, args=[{element-6066-11e4-a52e-4f735466cecf=f.710581A352270E68F97CEB7B23B67330.d.7A12BD0ED109E4A86C4DB2C31B785F4C.e.49}]}]
+Capabilities {acceptInsecureCerts: true, browserName: MicrosoftEdge, browserVersion: 142.0.3595.53, fedcm:accounts: true, goog:processID: 13868, ms:edgeOptions: {debuggerAddress: localhost:8273}, msedge: {msedgedriverVersion: 142.0.3595.53 (e9d637e9672e..., userDataDir: C:\Users\BROTHERS\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:8273/devtool..., se:cdpVersion: 142.0.3595.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5c43b1e2a7cb08dfffd8e6589804443c
+[INFO] Retrieved text from element successfully:  Lakefront Cabin in Finland
+[INFO] Page fully loaded.
+[INFO] Retrieved text from element successfully:  Your Wishlist
+[INFO] 📸 Screenshot attached to Allure: test-output/screenshots/wishListTc.png
+[INFO] wishListTc Finished
+[INFO] wishListTc passed
+[INFO] selectProductFromFilter about to execute
+[INFO] Navigated to URL:  https://airbnb-host-sigma.vercel.app
+[INFO] Page fully loaded.
+[INFO] Clicked on element successfully:  By.xpath: //button/span[.='Mountain']
+[INFO] Page fully loaded.
+[INFO] Page fully loaded.
+[ERROR] Failed to click element: no such element: Unable to locate element: {"method":"xpath","selector":"//div/h3[.='Alpine Retreat in New Zealand']/preceding::button[@aria-Label='Next image']"}
+  (Session info: MicrosoftEdge=142.0.3595.53)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.37.0', revision: '3c1da1e342'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [5c43b1e2a7cb08dfffd8e6589804443c, findElement {using=xpath, value=//div/h3[.='Alpine Retreat in New Zealand']/preceding::button[@aria-Label='Next image']}]
+Capabilities {acceptInsecureCerts: true, browserName: MicrosoftEdge, browserVersion: 142.0.3595.53, fedcm:accounts: true, goog:processID: 13868, ms:edgeOptions: {debuggerAddress: localhost:8273}, msedge: {msedgedriverVersion: 142.0.3595.53 (e9d637e9672e..., userDataDir: C:\Users\BROTHERS\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:8273/devtool..., se:cdpVersion: 142.0.3595.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5c43b1e2a7cb08dfffd8e6589804443c
+[ERROR] Failed to click element: no such element: Unable to locate element: {"method":"xpath","selector":"//div/h3[.='Alpine Retreat in New Zealand']/preceding::button[@aria-Label='Next image']"}
+  (Session info: MicrosoftEdge=142.0.3595.53)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.37.0', revision: '3c1da1e342'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [5c43b1e2a7cb08dfffd8e6589804443c, findElement {using=xpath, value=//div/h3[.='Alpine Retreat in New Zealand']/preceding::button[@aria-Label='Next image']}]
+Capabilities {acceptInsecureCerts: true, browserName: MicrosoftEdge, browserVersion: 142.0.3595.53, fedcm:accounts: true, goog:processID: 13868, ms:edgeOptions: {debuggerAddress: localhost:8273}, msedge: {msedgedriverVersion: 142.0.3595.53 (e9d637e9672e..., userDataDir: C:\Users\BROTHERS\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:8273/devtool..., se:cdpVersion: 142.0.3595.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5c43b1e2a7cb08dfffd8e6589804443c
+[ERROR] Failed to click element: stale element reference: stale element not found in the current frame
+  (Session info: MicrosoftEdge=142.0.3595.53)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Build info: version: '4.37.0', revision: '3c1da1e342'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [5c43b1e2a7cb08dfffd8e6589804443c, clickElement {id=f.710581A352270E68F97CEB7B23B67330.d.B410BD8D999CBF1C6FAC0029197FB4C2.e.77}]
+Capabilities {acceptInsecureCerts: true, browserName: MicrosoftEdge, browserVersion: 142.0.3595.53, fedcm:accounts: true, goog:processID: 13868, ms:edgeOptions: {debuggerAddress: localhost:8273}, msedge: {msedgedriverVersion: 142.0.3595.53 (e9d637e9672e..., userDataDir: C:\Users\BROTHERS\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:8273/devtool..., se:cdpVersion: 142.0.3595.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (5c43b1e2a7cb08dfffd8e6589804443c)] -> xpath: //div/h3[.='Alpine Retreat in New Zealand']/preceding::button[@aria-Label='Next image']]
+Session ID: 5c43b1e2a7cb08dfffd8e6589804443c
+[INFO] Clicked on element successfully:  By.xpath: //div/h3[.='Alpine Retreat in New Zealand']/preceding::button[@aria-Label='Next image']
+[INFO] Page fully loaded.
+[INFO] Page fully loaded.
+[INFO] Clicked on element successfully:  By.xpath: //div/h3[.='Alpine Retreat in New Zealand']/preceding::button[@aria-Label='Next image']
+[INFO] Page fully loaded.
+[INFO] Page fully loaded.
+[INFO] Clicked on element successfully:  By.xpath: //div/h3[.='Alpine Retreat in New Zealand']/preceding::button[@aria-Label='Next image']
+[INFO] Page fully loaded.
+[INFO] Page fully loaded.
+[INFO] Clicked on element successfully:  By.xpath: //div/h3[.='Alpine Retreat in New Zealand']/preceding::button[@aria-Label='Previous image']
+[INFO] Page fully loaded.
+[INFO] Page fully loaded.
+[INFO] Clicked on element successfully:  By.xpath: //div/h3[.='Alpine Retreat in New Zealand']
+[INFO] Page fully loaded.
+[INFO] 📸 Screenshot attached to Allure: test-output/screenshots/selectProductFromFilter.png
+[INFO] selectProductFromFilter Finished
+[INFO] selectProductFromFilter passed

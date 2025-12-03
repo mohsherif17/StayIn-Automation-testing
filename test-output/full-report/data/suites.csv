@@ -1,0 +1,8 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","5279","validateSuccessfulPaymentTC","automation exercise","2025-12-02","failed","2025-12-02","Tests.UItest.E2E","StayIN-GradProject","Tests.UItest.E2E","validateSuccessfulPaymentTC"
+"","4360","selectProductFromFilter","automation exercise","2025-12-02","passed","2025-12-02","Tests.UItest.E2E","StayIN-GradProject","Tests.UItest.E2E","selectProductFromFilter"
+"","3892","searchTC","automation exercise","2025-12-02","passed","2025-12-02","Tests.UItest.E2E","StayIN-GradProject","Tests.UItest.E2E","searchTC"
+"","13746","viewPropertyTC","automation exercise","2025-12-02","passed","2025-12-02","Tests.UItest.E2E","StayIN-GradProject","Tests.UItest.E2E","viewPropertyTC"
+"","1159","wishListTc","automation exercise","2025-12-02","passed","2025-12-02","Tests.UItest.E2E","StayIN-GradProject","Tests.UItest.E2E","wishListTc"
+"","2865","LoginTc","automation exercise","2025-12-02","passed","2025-12-02","Tests.UItest.E2E","StayIN-GradProject","Tests.UItest.E2E","LoginTc"
+"","18308","completePaymentTC","automation exercise","2025-12-02","passed","2025-12-02","Tests.UItest.E2E","StayIN-GradProject","Tests.UItest.E2E","completePaymentTC"
