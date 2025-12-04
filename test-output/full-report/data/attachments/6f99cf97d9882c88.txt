@@ -1,0 +1,225 @@
+[INFO] Execution started
+[ERROR] Failed to clear the file\test-output\ScreenShots
+[ERROR] Failed to clear the fileCannot delete file: D:\00ITI_Testing\00\final project\StayIN-GradProject\test-output\Logs\logs.log
+[INFO] Test output directories cleaned
+[INFO] Test output directories created
+[INFO] Properties loaded
+[INFO] Allure environment info set successfully
+[ERROR] Error while extracting allure zip: C:\Users\BROTHERS\.m2\repository\allure\allure-2.35.1
+[INFO] Allure binaries downloaded and extracted successfully
+[INFO] Allure environment info set
+[INFO] JSON file loaded successfully: E2E-Data
+[INFO] Initializing {} driver edge
+[INFO] Navigated to URL:  https://airbnb-host-sigma.vercel.app
+[INFO] before test register test
+[INFO] LoginTc about to execute
+[INFO] Clicked on element successfully:  By.xpath: //div/button[@class='flex text-sm bg-gray-100 rounded-full p-3 hover:bg-gray-200 shadow-lg transition-all duration-200']
+[INFO] Clicked on element successfully:  By.xpath: //li/a[@href='/auth/login']
+[INFO] Typed into element successfully: muhamedsherif98@gmail.com
+[INFO] Typed into element successfully: Muh@1998
+[INFO] Clicked on element successfully:  By.tagName: button
+[WARN] No soft assertions were made. assertAll() will not be called.
+[INFO] 📸 Screenshot attached to Allure: test-output/screenshots/LoginTc.png
+[INFO] LoginTc Finished
+[INFO] LoginTc passed
+[INFO] searchTC about to execute
+[INFO] Typed into element successfully: Lakefront Cabin in Finland
+[INFO] Pressed ENTER on element: By.tagName: input
+[WARN] Stale element detected, retrying click: By.xpath: //div/h3[.='Lakefront Cabin in Finland']/preceding::button[@aria-Label='Next image']
+[ERROR] Failed to click element: 
+[INFO] Clicked on element successfully:  By.xpath: //div/h3[.='Lakefront Cabin in Finland']/preceding::button[@aria-Label='Next image']
+[INFO] Clicked on element successfully:  By.xpath: //div/h3[.='Lakefront Cabin in Finland']/preceding::button[@aria-Label='Next image']
+[INFO] Clicked on element successfully:  By.xpath: //div/h3[.='Lakefront Cabin in Finland']/preceding::button[@aria-Label='Next image']
+[INFO] Clicked on element successfully:  By.xpath: //div/h3[.='Lakefront Cabin in Finland']/preceding::button[@aria-Label='Previous image']
+[INFO] Clicked on element successfully:  By.xpath: //div/h3[.='Lakefront Cabin in Finland']/preceding::button[@aria-Label='Add to wishlist']
+[WARN] No soft assertions were made. assertAll() will not be called.
+[INFO] 📸 Screenshot attached to Allure: test-output/screenshots/searchTC.png
+[INFO] searchTC Finished
+[INFO] searchTC passed
+[INFO] wishListTc about to execute
+[INFO] Clicked on element successfully:  By.xpath: //div/button[@class='flex items-center gap-2 text-sm bg-gray-100 rounded-full p-1 pr-3 hover:bg-gray-200 shadow-lg transition-all duration-200']
+[INFO] Clicked on element successfully:  By.xpath: //li/a[@href='/wishlist']
+[INFO] Retrieved text from element successfully:  Lakefront Cabin in Finland
+[INFO] Retrieved text from element successfully:  Your Wishlist
+[INFO] 📸 Screenshot attached to Allure: test-output/screenshots/wishListTc.png
+[INFO] wishListTc Finished
+[INFO] wishListTc passed
+[INFO] selectProductFromFilter about to execute
+[INFO] Navigated to URL:  https://airbnb-host-sigma.vercel.app
+[INFO] Clicked on element successfully:  By.xpath: //button/span[.='Mountain']
+[ERROR] Failed to click element: 
+[ERROR] Failed to click element: 
+[ERROR] Failed to click element: 
+[WARN] Stale element detected, retrying click: By.xpath: //div/h3[.='Alpine Lodge in Austria']/preceding::button[@aria-Label='Next image']
+[INFO] Clicked on element successfully:  By.xpath: //div/h3[.='Alpine Lodge in Austria']/preceding::button[@aria-Label='Next image']
+[INFO] Clicked on element successfully:  By.xpath: //div/h3[.='Alpine Lodge in Austria']/preceding::button[@aria-Label='Next image']
+[INFO] Clicked on element successfully:  By.xpath: //div/h3[.='Alpine Lodge in Austria']/preceding::button[@aria-Label='Next image']
+[INFO] Clicked on element successfully:  By.xpath: //div/h3[.='Alpine Lodge in Austria']/preceding::button[@aria-Label='Previous image']
+[INFO] Clicked on element successfully:  By.xpath: //div/h3[.='Alpine Lodge in Austria']
+[INFO] 📸 Screenshot attached to Allure: test-output/screenshots/selectProductFromFilter.png
+[INFO] selectProductFromFilter Finished
+[INFO] selectProductFromFilter passed
+[INFO] viewPropertyTC about to execute
+[INFO] Clicked on element successfully:  By.xpath: //div[@class='grid grid-cols-7 gap-1']/preceding::button[.=' 30 ']
+[INFO] Clicked on element successfully:  By.xpath: //label[.='CHECKOUT']/following::div[@class='text-sm'][1]
+[INFO] Clicked on element successfully:  By.xpath: //button[@class='p-1 rounded-full hover:bg-gray-100'][2]
+[WARN] Stale element detected, retrying click: By.xpath: //div[@class='text-center p-2 rounded-full text-sm cursor-pointer'][.=' 1 ']
+[INFO] Clicked on element successfully:  By.xpath: //div[@class='text-center p-2 rounded-full text-sm cursor-pointer'][.=' 1 ']
+[INFO] Clicked on element successfully:  By.xpath: //button[.=' Done ']
+[INFO] Clicked on element successfully:  By.xpath: //label[.='GUESTS']/following::div[@class='text-sm cursor-pointer']
+[INFO] Clicked on element successfully:  By.xpath: //div[.='Adults']/following::button[.=' + '][1]
+[INFO] Clicked on element successfully:  By.xpath: //div[.='Adults']/following::button[.=' + '][1]
+[INFO] Clicked on element successfully:  By.xpath: //div[.='Adults']/following::button[.=' - '][1]
+[INFO] Clicked on element successfully:  By.xpath: //div[.='Adults']/following::button[.=' - '][1]
+[INFO] Clicked on element successfully:  By.xpath: //div[.='Children']/following::button[.=' + '][1]
+[INFO] Clicked on element successfully:  By.xpath: //div[.='Children']/following::button[.=' + '][1]
+[INFO] Clicked on element successfully:  By.xpath: //div[.='Infants']/following::button[.=' + '][1]
+[INFO] Clicked on element successfully:  By.xpath: //div[.='Infants']/following::button[.=' + '][1]
+[INFO] Clicked on element successfully:  By.xpath: //div[.='Infants']/following::button[.=' + '][1]
+[INFO] Clicked on element successfully:  By.xpath: //div/label[@class='relative inline-flex items-center cursor-pointer']
+[INFO] Clicked on element successfully:  By.xpath: //button[.=' Close ']
+[INFO] Clicked on element successfully:  By.xpath: //app-amenities//button
+[INFO] Retrieved text from element successfully:  Pool
+[INFO] Retrieved text from element successfully:  Wi-Fi
+[INFO] Clicked on element successfully:  By.xpath: //app-amenities//button[.=' Done ']
+[INFO] Retrieved text from element successfully:  295.5$
+[INFO] Retrieved text from element successfully:  692$
+[INFO] Clicked on element successfully:  By.xpath: //button[.=' Reserve ']
+[INFO] 📸 Screenshot attached to Allure: test-output/screenshots/viewPropertyTC.png
+[INFO] viewPropertyTC Finished
+[INFO] viewPropertyTC passed
+[INFO] completePaymentTC about to execute
+[ERROR] Failed to type into element: By.id: email
+[ERROR] Failed to type into element: By.id: email
+[ERROR] Failed to type into element: By.id: email
+[ERROR] Failed to type into element: By.id: email
+[ERROR] Failed to type into element: By.id: email
+[ERROR] Failed to type into element: By.id: email
+[ERROR] Failed to type into element: By.id: email
+[ERROR] Failed to type into element: By.id: email
+[ERROR] Failed to type into element: By.id: email
+[ERROR] Failed to type into element: By.id: email
+[ERROR] Failed to type into element: By.id: email
+[ERROR] Failed to type into element: By.id: email
+[ERROR] Failed to type into element: By.id: email
+[INFO] Typed into element successfully: muhamedsherif98@gmail.com
+[INFO] Typed into element successfully: 4242 4242 4242 4242
+[INFO] Typed into element successfully: 07/30
+[INFO] Typed into element successfully: 331
+[INFO] Typed into element successfully: Muhamed sherif
+[INFO] Clicked on element successfully:  By.className: SubmitButton-IconContainer
+[INFO] 📸 Screenshot attached to Allure: test-output/screenshots/completePaymentTC.png
+[INFO] completePaymentTC Finished
+[INFO] completePaymentTC passed
+[INFO] validateSuccessfulPaymentTC about to execute
+[ERROR] Failed to get text: 
+[ERROR] Failed to get text: 
+[ERROR] Failed to get text: 
+[ERROR] Failed to get text: 
+[ERROR] Failed to get text: 
+[ERROR] Failed to get text: 
+[ERROR] Failed to get text: 
+[ERROR] Failed to get text: 
+[ERROR] Failed to get text: 
+[ERROR] Failed to get text: 
+[ERROR] Failed to get text: 
+[ERROR] Failed to get text: 
+[INFO] Retrieved text from element successfully:  Payment Successful!
+[ERROR] Failed to get text: 
+[ERROR] Failed to get text: 
+[INFO] Retrieved text from element successfully:  $691.47
+[INFO] Retrieved text from element successfully:  Dec 29, 2025 - Dec 31, 2025
+[INFO] Clicked on element successfully:  By.xpath: //button[.=' Back to Home ']
+[ERROR] Soft Assertion failed:  The following asserts failed:
+	reservation dates miss match expected [Dec 30, 2025 - Jan 1, 2026] but found [Dec 29, 2025 - Dec 31, 2025]
+[INFO] 📸 Screenshot attached to Allure: test-output/screenshots/validateSuccessfulPaymentTC.png
+[INFO] validateSuccessfulPaymentTC Finished
+[INFO] validateSuccessfulPaymentTC failed
+[INFO] after test register test
+[INFO] JSON file loaded successfully: invalidData
+[INFO] Initializing {} driver edge
+[INFO] Navigated to URL:  https://airbnb-host-sigma.vercel.app
+[INFO] before test register test
+[INFO] userLogin about to execute
+[INFO] Clicked on element successfully:  By.xpath: //div/button[@class='flex text-sm bg-gray-100 rounded-full p-3 hover:bg-gray-200 shadow-lg transition-all duration-200']
+[INFO] Clicked on element successfully:  By.xpath: //li/a[@href='/auth/login']
+[ERROR] Failed to type into element: By.id: email
+[INFO] Typed into element successfully: muhamedsherif98@gmail.com
+[INFO] Typed into element successfully: Muh@1998
+[INFO] Clicked on element successfully:  By.tagName: button
+[INFO] 📸 Screenshot attached to Allure: test-output/screenshots/userLogin.png
+[INFO] userLogin Finished
+[INFO] userLogin passed
+[INFO] selctProperty about to execute
+[INFO] Navigated to URL:  https://airbnb-host-sigma.vercel.app
+[INFO] Clicked on element successfully:  By.xpath: //button/span[.='City']
+[ERROR] Failed to click element: 
+[ERROR] Failed to click element: 
+[INFO] Clicked on element successfully:  By.xpath: //div/h3[.='Designer Loft in Buenos Aires']/preceding::button[@aria-Label='Next image']
+[INFO] Clicked on element successfully:  By.xpath: //div/h3[.='Designer Loft in Buenos Aires']/preceding::button[@aria-Label='Next image']
+[INFO] Clicked on element successfully:  By.xpath: //div/h3[.='Designer Loft in Buenos Aires']/preceding::button[@aria-Label='Next image']
+[INFO] Clicked on element successfully:  By.xpath: //div/h3[.='Designer Loft in Buenos Aires']/preceding::button[@aria-Label='Previous image']
+[INFO] Clicked on element successfully:  By.xpath: //div/h3[.='Designer Loft in Buenos Aires']
+[INFO] 📸 Screenshot attached to Allure: test-output/screenshots/selctProperty.png
+[INFO] selctProperty Finished
+[INFO] selctProperty passed
+[INFO] proceedToPaymentPage about to execute
+[ERROR] Failed to click element: 
+[WARN] Stale element detected, retrying click: By.xpath: //div[@class='grid grid-cols-7 gap-1']/preceding::button[.=' 20 ']
+[WARN] Stale element detected, retrying click: By.xpath: //div[@class='grid grid-cols-7 gap-1']/preceding::button[.=' 20 ']
+[INFO] Clicked on element successfully:  By.xpath: //div[@class='grid grid-cols-7 gap-1']/preceding::button[.=' 20 ']
+[INFO] Clicked on element successfully:  By.xpath: //label[.='CHECKOUT']/following::div[@class='text-sm'][1]
+[INFO] Clicked on element successfully:  By.xpath: //div[@class='text-center p-2 rounded-full text-sm cursor-pointer'][.=' 21 ']
+[INFO] Clicked on element successfully:  By.xpath: //button[.=' Done ']
+[INFO] Clicked on element successfully:  By.xpath: //button[.=' Reserve ']
+[INFO] 📸 Screenshot attached to Allure: test-output/screenshots/proceedToPaymentPage.png
+[INFO] proceedToPaymentPage Finished
+[INFO] proceedToPaymentPage passed
+[INFO] PaymentWithShortCVC about to execute
+[ERROR] Failed to type into element: By.id: email
+[ERROR] Failed to type into element: By.id: email
+[ERROR] Failed to type into element: By.id: email
+[ERROR] Failed to type into element: By.id: email
+[ERROR] Failed to type into element: By.id: email
+[ERROR] Failed to type into element: By.id: email
+[ERROR] Failed to type into element: By.id: email
+[ERROR] Failed to type into element: By.id: email
+[INFO] Typed into element successfully: muhamedsherif98@gmail.com
+[INFO] Typed into element successfully: 4242 4242 4242 4242
+[INFO] Typed into element successfully: 07/30
+[INFO] Typed into element successfully: 3
+[INFO] Typed into element successfully: Muhamed sherif
+[INFO] Retrieved text from element successfully:  Your card’s security code is incomplete.
+[INFO] 📸 Screenshot attached to Allure: test-output/screenshots/PaymentWithShortCVC.png
+[INFO] PaymentWithShortCVC Finished
+[INFO] PaymentWithShortCVC passed
+[INFO] PaymentWithWrongCardExpDate about to execute
+[INFO] Typed into element successfully: muhamedsherif98@gmail.com
+[INFO] Typed into element successfully: 4242 4242 4242 4242
+[INFO] Typed into element successfully: 07/24
+[INFO] Typed into element successfully: 331
+[INFO] Typed into element successfully: Muhamed sherif
+[INFO] Retrieved text from element successfully:  Your card’s expiration year is in the past.
+[INFO] 📸 Screenshot attached to Allure: test-output/screenshots/PaymentWithWrongCardExpDate.png
+[INFO] PaymentWithWrongCardExpDate Finished
+[INFO] PaymentWithWrongCardExpDate passed
+[INFO] PaymentWithWrongCardNumber about to execute
+[INFO] Typed into element successfully: muhamedsherif98@gmail.com
+[INFO] Typed into element successfully: 4246 4245 4243 4242
+[INFO] Typed into element successfully: 07/30
+[INFO] Typed into element successfully: 331
+[INFO] Typed into element successfully: Muhamed sherif
+[INFO] Retrieved text from element successfully:  Your card number is invalid.
+[INFO] 📸 Screenshot attached to Allure: test-output/screenshots/PaymentWithWrongCardNumber.png
+[INFO] PaymentWithWrongCardNumber Finished
+[INFO] PaymentWithWrongCardNumber passed
+[INFO] PaymentWithWrongEmail about to execute
+[INFO] Typed into element successfully: muhamedsherif98@
+[INFO] Typed into element successfully: 4242 4242 4242 4242
+[INFO] Typed into element successfully: 07/30
+[INFO] Typed into element successfully: 331
+[INFO] Typed into element successfully: Muhamed sherif
+[INFO] Retrieved text from element successfully:  Your email is incomplete.
+[INFO] 📸 Screenshot attached to Allure: test-output/screenshots/PaymentWithWrongEmail.png
+[INFO] PaymentWithWrongEmail Finished
+[INFO] PaymentWithWrongEmail passed

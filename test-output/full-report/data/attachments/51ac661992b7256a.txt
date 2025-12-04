@@ -1,0 +1,24 @@
+[INFO] Execution started
+[ERROR] Failed to clear the file\test-output\ScreenShots
+[ERROR] Failed to clear the fileCannot delete file: D:\00ITI_Testing\00\final project\StayIN-GradProject\test-output\Logs\logs.log
+[INFO] Test output directories cleaned
+[INFO] Test output directories created
+[INFO] Properties loaded
+[INFO] Allure environment info set successfully
+[ERROR] Error while extracting allure zip: C:\Users\BROTHERS\.m2\repository\allure\allure-2.35.1
+[INFO] Allure binaries downloaded and extracted successfully
+[INFO] Allure environment info set
+[INFO] JSON file loaded successfully: E2E-Data
+[INFO] Initializing {} driver edge
+[INFO] Navigated to URL:  https://airbnb-host-sigma.vercel.app
+[INFO] before test register test
+[INFO] LoginTc about to execute
+[INFO] Clicked on element successfully:  By.xpath: //div/button[@class='flex text-sm bg-gray-100 rounded-full p-3 hover:bg-gray-200 shadow-lg transition-all duration-200']
+[INFO] Clicked on element successfully:  By.xpath: //li/a[@href='/auth/login']
+[INFO] Typed into element successfully: muhamedsherif98@gmail.com
+[INFO] Typed into element successfully: Muh@1998
+[INFO] Clicked on element successfully:  By.tagName: button
+[WARN] No soft assertions were made. assertAll() will not be called.
+[INFO] 📸 Screenshot attached to Allure: test-output/screenshots/LoginTc.png
+[INFO] LoginTc Finished
+[INFO] LoginTc passed

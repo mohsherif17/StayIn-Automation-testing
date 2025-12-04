@@ -1,0 +1,55 @@
+{
+
+  "userInvalidMail": {
+    "email": "muhsherif98@gmail.com",
+    "password": "Muh@1998"
+  },
+  "userInvalidPassword": {
+    "email": "muhamedsherif98@gmail.com",
+    "password": "Muhamed@1998"
+  },
+  "user1": {
+    "email": "muhamedsherif98@gmail.com",
+    "password": "Muh@1998"
+  },
+  "filterItem1": "City",
+  "filterProperty1": "Designer Loft in Buenos Aires",
+  "reservationProp1": {
+    "checkIn": "5",
+    "checkOut": "9"
+},
+  "cardWithWrongNumber": {
+    "email": "muhamedsherif98@gmail.com",
+    "number": "4246 4245 4243 4242",
+    "CVV": "331",
+    "ExDate": "07/30",
+    "holder": "Muhamed sherif"
+  },
+  "filterItem2": "City",
+  "filterProperty2": "Designer Loft in Buenos Aires",
+  "reservationProp2": {
+    "checkIn": "5",
+    "checkOut": "9"
+  },
+  "cardWithWrongEmailFormat": {
+    "email": "muhamedsherif98@",
+    "number": "4242 4242 4242 4242",
+    "CVV": "331",
+    "ExDate": "07/30",
+    "holder": "Muhamed sherif"
+  },
+  "cardWithWrongExpDate": {
+    "email": "muhamedsherif98@gmail.com",
+    "number": "4242 4242 4242 4242",
+    "CVV": "331",
+    "ExDate": "07/24",
+    "holder": "Muhamed sherif"
+  },
+  "cardWithShortCVC": {
+    "email": "muhamedsherif98@gmail.com",
+    "number": "4242 4242 4242 4242",
+    "CVV": "3",
+    "ExDate": "07/30",
+    "holder": "Muhamed sherif"
+  }
+}
