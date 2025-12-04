@@ -83,8 +83,8 @@ public PropertyPage moveToPreviousMonth() {
         return this;
     }
 @Step("choose next month for reservation")
-    public PropertyPage moveToNxtMonth() {
-        driver.element().click(nxtMonthBtn);
+    public PropertyPage choseFromNxtMonth(String day) {
+         driver.element().click(checkOutDate).click(nxtMonthBtn).click(selectDayFromAppBooking(day)).click(doneBtn);
         return this;
     }
 @Step("choose previous month for reservation")

@@ -33,9 +33,9 @@ private final String LoginPageEndPoint="/auth/login";
         return this;
     }
     @Step("submit login form")
-    public HomePage submitForm() {
+    public LoginPage submitForm() {
         driver.element().click(submitBtn);
-        return new HomePage(driver);
+        return this;
     }
     @Step("validate error message is displayed ")
     public LoginPage validateErrorInLogin() {

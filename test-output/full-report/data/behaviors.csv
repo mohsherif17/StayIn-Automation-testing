@@ -1,2 +1,4 @@
 "BROKEN","EPIC","FAILED","FEATURE","PASSED","SKIPPED","STORY","UNKNOWN"
+"0","GraduationProject - Web Automation Testing","0","invaldid Test Cases","2","0","login","0"
 "0","GraduationProject - Web Automation Testing","1","E2E Test for property Reservation","6","0","navigate to the home page, login, search for a property, add to wishlist, filter items, select a property, make a reservation, and complete payment.","0"
+"0","GraduationProject - Web Automation Testing","0","invalid Test Cases in payment page","7","0","payment","0"

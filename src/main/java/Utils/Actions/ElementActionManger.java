@@ -61,16 +61,29 @@ public class ElementActionManger {
     // ✅ Send keys method
     public ElementActionManger type(By locator, String text) {
         waitForPageToLoad();
-        waitManger.getFluentWait().until(d -> {
+
+        waitManger.getFluentWait().until(driver -> {
             int retries = 3;
+
             while (retries-- > 0) {
                 try {
-                    WebElement element = d.findElement(locator);
+                    WebElement element = driver.findElement(locator);
                     scrollToElementJS(locator);
-                    element.clear();
+
+                    // Full clear (handles stubborn inputs)
+                    try {
+                        element.sendKeys(Keys.CONTROL + "a"); // Select all
+                        element.sendKeys(Keys.DELETE);       // Delete selected text
+                    } catch (Exception ignored) {
+                        // If Ctrl+A fails, fallback to clear()
+                        element.clear();
+                    }
+
+                    // Type new text
                     element.sendKeys(text);
-                    LogsManager.info("Typed into element successfully: ", text);
+                    LogsManager.info("Typed into element successfully: " + text);
                     return true;
+
                 } catch (StaleElementReferenceException e) {
                     LogsManager.warn("Stale element detected while typing, retrying: " + locator);
 
@@ -79,12 +92,13 @@ public class ElementActionManger {
                     scrollToElementJS(locator);
 
                 } catch (Exception e) {
-                    LogsManager.error("Failed to type into element: " );
+                    LogsManager.error("Failed to type into element: " + locator);
                     return false;
                 }
             }
             return false;
         });
+
         return this;
     }
 

@@ -63,7 +63,7 @@ public class E2E extends BaseTest {
     void viewPropertyTC() {
         new PropertyPage(driver)
                 .ChoseDate(testData.getJsonData("reservationProp.checkIn"))
-                .choseCheckOutDate(testData.getJsonData("reservationProp.checkOut"))
+                .choseFromNxtMonth(testData.getJsonData("reservationProp.checkOut"))
                 .openGuestNumber()
                 .increaseAdults(testData.getJsonData("reservationProp.adults"))
                 .decreaseAdults(testData.getJsonData("reservationProp.adults"))
